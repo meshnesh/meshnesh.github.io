@@ -6,7 +6,7 @@
     height: 32vh!important;
     padding: 2em!important;
 }
-.btn{
+.waves-light{
     width: 100%;
 }
 .card .card-content .card-title{
@@ -26,4 +26,8 @@
     left: 19%;
     padding-top: 2em;
     padding-bottom: 2em
+}
+.delete_events{
+    margin-top: 1em;
+    font-size: 4em;
 }
