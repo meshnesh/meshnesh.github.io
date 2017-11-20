@@ -8,49 +8,117 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">  -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
-
-    <body>
-            <nav>
-                    <div class="nav-wrapper">
-                      <a href="#" class="brand-logo">Bright Events</a>
-                      <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#"></a></li>
-                        <li><a href="#">SIGN IN</a></li>
-                        <li>
-                                
-                                        <form class="col s12">
-                                          <div class="row">
-                                            <div class="input-field col s12">
-                                              <input id="email" type="email" class="validate">
-                                              <label for="email" data-error="wrong" data-success="right">Email</label>
-                                            </div>
-                                          </div>
-                                        </form>
-                                      
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-                   <div class="row">
-      <div class="col s1">1</div>
-      <div class="col s1">2</div>
-      <div class="col s1">3</div>
-      <div class="col s1">4</div>
-      <div class="col s1">5</div>
-      <div class="col s1">6</div>
-      <div class="col s1">7</div>
-      <div class="col s1">8</div>
-      <div class="col s1">9</div>
-      <div class="col s1">10</div>
-      <div class="col s1">11</div>
-      <div class="col s1">12</div>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Bright Events</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#"></a></li>
+          <li><a href="#">SIGN IN</a></li>
+        </ul>
+      </div>
+  </nav> 
+   <!-- row for filtering by location and category -->
+   <div class="row center">
+     <div class="col s12 m4 l8 center filter_section ">
+       <h3>Filter Section</h3>
+      <div class="input-field col s12 m6">
+          <select class="icons">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="" data-icon="images/sample-1.jpg" class="circle">example 1</option>
+            <option value="" data-icon="images/office.jpg" class="circle">example 2</option>
+            <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+          </select>
+          <label>Location</label>
+        </div>
+        <div class="input-field col s12 m6">
+          <select class="icons">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="" class="left circle">example 1</option>
+            <option value="" class="left circle">example 2</option>
+            <option value="" class="left circle">example 3</option>
+          </select>
+          <label>Category</label>
+        </div>
+      </div>
     </div>
-          
+    <!-- event list section -->
+<!-- first event -->
+    <div class="row event_list">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="imgs/img-1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4">Tattoo Fest</span>
+              <p>Karen, Nairobi</p>
+              <h6>SAT 25 NOV 2017, 11:00AM</h6>
+              <a class="waves-effect waves-light btn">button</a>
+
+            </div>
+            <!-- <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div> -->
+          </div>
+        </div>
+        <!-- second event -->
+        <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="imgs/img-2.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Enviroment Awareness</span>
+                <p>Karura Forest Nairobi, Kenya</p>
+                <h6>SAT 25 NOV 2017, 11:00AM</h6>
+                <a class="waves-effect waves-light btn">button</a>
+              </div>
+              <!-- <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div> -->
+            </div>
+          </div>
+          <!-- third event -->
+          <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="imgs/img-3.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Smoothie Fest</span>
+                  <p> 
+                    <!-- <i class="material-icons">navigation</i>  -->
+                    Machakos, Kenya</p>
+                  <h6>SAT 25 NOV 2017, 11:00AM</h6>
+                  <a class="waves-effect waves-light btn">button</a>
+                </div>
+              </div>
+            </div>
+      </div>
+    
+      <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2017 Bright Events
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+          </div>
+        </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    
-    </body>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $('select').material_select();
+        });   
+     </script>
+</body>
 </html>

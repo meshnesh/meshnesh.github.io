@@ -1,0 +1,29 @@
+.filter_section{
+    position: absolute !important;
+    left: 18%!important;
+    top: 16%!important;
+    background: grey!important;
+    height: 32vh!important;
+    padding: 2em!important;
+}
+.btn{
+    width: 100%;
+}
+.card .card-content .card-title{
+    font-weight: 800;
+}
+.event_list{
+    margin-top: 24em;
+}
+.page-footer{
+    padding: 0;
+}
+.sign_login{
+    width: 65%;
+    position: absolute;
+    top: 32%;
+    background: grey;
+    left: 19%;
+    padding-top: 2em;
+    padding-bottom: 2em
+}
