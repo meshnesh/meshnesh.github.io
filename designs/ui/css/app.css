@@ -9,6 +9,12 @@
 .waves-light{
     width: 100%;
 }
+.btn{
+    background: #0D4D4D;
+}
+.btn:hover{
+   background: #407F7F;
+}
 .card .card-content .card-title{
     font-weight: 800;
 }
