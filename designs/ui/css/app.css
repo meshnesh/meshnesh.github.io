@@ -2,12 +2,18 @@
     position: absolute !important;
     left: 18%!important;
     top: 16%!important;
-    background: grey!important;
+    background: #AA242B!important;
     height: 32vh!important;
     padding: 2em!important;
 }
 .waves-light{
     width: 100%;
+}
+.btn{
+    background: #0D4D4D;
+}
+.btn:hover{
+   background: #407F7F;
 }
 .card .card-content .card-title{
     font-weight: 800;
@@ -22,7 +28,7 @@
     width: 65%;
     position: absolute;
     top: 32%;
-    background: grey;
+    background: #AA242B!important;
     left: 19%;
     padding-top: 2em;
     padding-bottom: 2em
@@ -37,7 +43,7 @@
         position: absolute !important;
         left: 18%!important;
         top: 8%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 17vh!important;
         padding: 2em!important;
 }
@@ -47,7 +53,7 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 32vh!important;
         padding: 2em!important;
     }
@@ -64,7 +70,7 @@
         position: absolute !important;
         left: 10%!important;
         top: 14%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 20vh!important;
         padding: 2em!important;
     }
@@ -75,7 +81,7 @@
         position: absolute !important;
         left: 10%!important;
         top: 14%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 27vh!important;
         padding: 2em!important;
     }
@@ -89,7 +95,7 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 48vh!important;
         padding: 2em!important;
     }
@@ -110,7 +116,7 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: grey!important;
+        background: #AA242B!important;
         height: 48vh!important;
         padding: 1em!important;
     }
