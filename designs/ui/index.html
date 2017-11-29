@@ -116,5 +116,26 @@
         $(".button-collapse").sideNav();
       });
      </script>
+    <script>
+        $(document).ready(function () {loadfunctionAjax();
+        });
+        var loadfunctionAjax = function () {
+          $.ajax({
+              type: 'GET',
+              url: 'https://bright-events.herokuapp.com/api/events',
+              contentType: "application/json; charset=utf-8",
+              dataType: "json",
+              success: function (data) {
+                console.log(data)
+                  // var HTML = '';
+                  // for (var i = 0; i < data.length; i++) {
+                  //     item = data[i];
+                  //     HTML += '<li><a class="" target="_blank" href="' + item.FALink + '"><i class="fa ' + item.FAIcon + '"></i>' + item.Name + '</a ></li > ';
+                  // }
+                  // $('#footerSocialNav').append(HTML);
+              }
+          });
+        }
+    </script>
 </body>
 </html>
