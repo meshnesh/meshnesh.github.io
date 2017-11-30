@@ -52,50 +52,9 @@
     </div>
     <!-- event list section -->
 <!-- first event -->
-    <div class="row event_list">
-        <div class="col s12 m4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="imgs/img-1.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title grey-text text-darken-4">Tattoo Fest</span>
-              <p>Karen, Nairobi</p>
-              <h6>SAT 25 NOV 2017, 11:00AM</h6>
-              <a class="waves-effect waves-light btn">VIEW</a>
+    <div class="row event_list" id="eventCard">
 
-            </div>
-          </div>
-        </div>
-        <!-- second event -->
-        <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="imgs/img-2.jpg">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Enviroment Awareness</span>
-                <p>Karura Forest Nairobi, Kenya</p>
-                <h6>SAT 25 NOV 2017, 11:00AM</h6>
-                <a class="waves-effect waves-light btn">VIEW</a>
-              </div>
-            </div>
-          </div>
-          <!-- third event -->
-          <div class="col s12 m4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="imgs/img-3.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Smoothie Fest</span>
-                  <p>Machakos, Kenya</p>
-                  <h6>SAT 25 NOV 2017, 11:00AM</h6>
-                  <a class="waves-effect waves-light btn">VIEW</a>
-                </div>
-              </div>
-            </div>
-      </div>
+    </div>
     
       <footer class="page-footer">
           <div class="footer-copyright">
@@ -108,6 +67,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
     <script>
         $(document).ready(function() {
           $('select').material_select();
@@ -116,26 +76,5 @@
         $(".button-collapse").sideNav();
       });
      </script>
-    <script>
-        $(document).ready(function () {loadfunctionAjax();
-        });
-        var loadfunctionAjax = function () {
-          $.ajax({
-              type: 'GET',
-              url: 'https://bright-events.herokuapp.com/api/events',
-              contentType: "application/json; charset=utf-8",
-              dataType: "json",
-              success: function (data) {
-                console.log(data)
-                  // var HTML = '';
-                  // for (var i = 0; i < data.length; i++) {
-                  //     item = data[i];
-                  //     HTML += '<li><a class="" target="_blank" href="' + item.FALink + '"><i class="fa ' + item.FAIcon + '"></i>' + item.Name + '</a ></li > ';
-                  // }
-                  // $('#footerSocialNav').append(HTML);
-              }
-          });
-        }
-    </script>
 </body>
 </html>
