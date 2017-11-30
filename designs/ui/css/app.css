@@ -11,6 +11,7 @@
 }
 .btn{
     background: #0D4D4D;
+    margin-right: 1em;
 }
 .btn:hover{
    background: #407F7F;
