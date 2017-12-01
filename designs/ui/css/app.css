@@ -1,10 +1,26 @@
+a{
+    color: #aa242b;
+    font-weight: 900;
+}
+.foward-link{
+    font-weight: 200;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    padding-left: 1em;
+}
 .filter_section{
     position: absolute !important;
     left: 18%!important;
     top: 16%!important;
-    background: #AA242B!important;
     height: 32vh!important;
     padding: 2em!important;
+    box-shadow: 3px 3px 8px #888888;
+    border-radius: 8px;
 }
 .waves-light{
     width: 100%;
@@ -29,10 +45,11 @@
     width: 65%;
     position: absolute;
     top: 32%;
-    background: #AA242B!important;
     left: 19%;
     padding-top: 2em;
-    padding-bottom: 2em
+    padding-bottom: 2em;
+    box-shadow: 1px 1px 8px 2px #888888;
+    border-radius: 8px;
 }
 .delete_events{
     margin-top: 1em;
@@ -44,7 +61,6 @@
         position: absolute !important;
         left: 18%!important;
         top: 8%!important;
-        background: #AA242B!important;
         height: 17vh!important;
         padding: 2em!important;
 }
@@ -54,7 +70,6 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: #AA242B!important;
         height: 32vh!important;
         padding: 2em!important;
     }
@@ -71,7 +86,6 @@
         position: absolute !important;
         left: 10%!important;
         top: 14%!important;
-        background: #AA242B!important;
         height: 20vh!important;
         padding: 2em!important;
     }
@@ -82,7 +96,6 @@
         position: absolute !important;
         left: 10%!important;
         top: 14%!important;
-        background: #AA242B!important;
         height: 27vh!important;
         padding: 2em!important;
     }
@@ -96,7 +109,6 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: #AA242B!important;
         height: 48vh!important;
         padding: 2em!important;
     }
@@ -117,7 +129,6 @@
         position: relative !important;
         left: 0%!important;
         top: 6%!important;
-        background: #AA242B!important;
         height: 48vh!important;
         padding: 1em!important;
     }
